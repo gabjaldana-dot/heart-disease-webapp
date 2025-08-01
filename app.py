@@ -14,7 +14,7 @@ scaler = joblib.load("scaler.pkl")
 
 # Title
 st.markdown("""
-    <h1 style='text-align: center; font-size: 42px;'>💓 Heart Disease Predictor</h1>
+    <h1 style='text-align: center; font-size: 42px;'>❤️ Heart Disease Predictor</h1>
     <p style='text-align: center; font-size: 20px;'>Please enter the patient's details below.</p>
     <hr style='margin-top: 10px;'>
 """, unsafe_allow_html=True)
@@ -81,7 +81,7 @@ with st.form("prediction_form"):
             "Unknown (3)": 3
         }.keys())
 
-    submitted = st.form_submit_button("🔍 Predict")
+    submitted = st.form_submit_button("Predict")
 
 # Processing
 if submitted:
